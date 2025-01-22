@@ -5,6 +5,8 @@
     --color-text-description: #000000;
     --color-text-especiality: #000000;
     --color-text-button: #FFFFFF;
+    --size-h1: 2.8rem;
+    --background-button: rgba(251, 255, 0, 0.2);
 }
 
 
@@ -14,4 +16,57 @@
     padding: 0;
     border: 0;
     box-sizing: border-box;
+    font-family: 'roboto';
+}
+
+
+
+.header {
+    background-color: var(--color-primary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 8rem;
+}
+
+
+.header__logo {
+    color: var(--color-background);
+}
+
+
+.header__logo--yellow {
+    color: var(--color-secondary);
+}
+
+.header__nav {
+    width: 100%;
+}
+
+.header__ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    color: var(--color-text-button);
+}
+
+
+
+
+.header__item--contact {
+    background-color: var(--color-secondary);
+    border-radius: 0.4rem;
+    background-color: var(--background-button);
+    border: var(--color-secondary) 0.1rem solid;
+}
+
+
+.header__item {
+    padding: 0.2rem 2rem;
+}
+
+.header__logo{
+    font-size: var(--size-h1);
 }
