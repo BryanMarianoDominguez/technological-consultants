@@ -28,7 +28,7 @@ body {
     'main'
     'footer';
     grid-template-columns: 1fr;
-    grid-template-rows: 8rem 1fr 20rem;
+    grid-template-rows: 12vh 48vh 40vh;
 }
 
 
@@ -48,6 +48,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
+    height: 100%;
 }
 
 .home {
@@ -55,7 +56,8 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100%;
+    height: 48vh;
+    width: 100%;
     gap: 1.2rem;
     text-align: center;
 }
